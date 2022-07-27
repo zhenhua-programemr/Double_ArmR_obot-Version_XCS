@@ -225,7 +225,7 @@ namespace Double_Arm_Robot
                 } 
                 using (Mastership m = Mastership.Request(controller.Rapid))
                 {
-                    tasks[0].SetProgramPointer("MAINLINER2", RightRobot_startPointModule);
+                    tasks[1].SetProgramPointer("MAINLINER2", RightRobot_startPointModule);
                 }
             }
             catch(Exception ex)
