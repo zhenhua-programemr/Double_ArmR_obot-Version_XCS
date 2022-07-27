@@ -70,6 +70,7 @@ namespace Double_Arm_Robot
                     //myPlatform.inital(combo_SerialNum.Text);
                     //label_PlatForm.Image = greenLight;
                     myABBRobot1.init();
+                    myABBRobot1.return_StartPoint();
                     //label_RobotLeft.Image = greenLight;
                     //myGocater = new Gocater();
                     ////myGocater.standardPoint();
